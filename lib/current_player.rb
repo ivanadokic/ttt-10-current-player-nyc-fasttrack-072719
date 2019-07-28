@@ -12,7 +12,7 @@ end
   end
   
   def current_player(counter)
-    
+    counter.even
 
  
  
