@@ -1,6 +1,6 @@
 
 def turn_count(board)
-  countr = 0
+  counter = 0
   board.each do |position|
    if postion =="X" || "O"
      counter += 1
