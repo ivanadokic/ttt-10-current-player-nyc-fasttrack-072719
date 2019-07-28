@@ -1,12 +1,14 @@
 
 def turn_count(board)
-  turn = 0
-  board.each do |space|
-   if space =="X" || space=="O"
-     turns += 1
+  counter = 0
+  board.each do |position|
+   if position =="X" || position=="O"
+     counter += 1
+   else
+     counter +=0
 end
     end
-    return turns
+    return counter
   end
 
  
